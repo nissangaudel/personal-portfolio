@@ -1,0 +1,20 @@
+<!--This is the navigation bar-->
+
+<header class="navigation">
+    <div class="navigation_container">
+        <div class="home_icon">
+            <h1><a href="/home">निशान गौडेल</a></h1>
+        </div>
+        <div class="nav_list">
+            <nav>
+                <ul>
+                    <li class=" <%= page=='Home' ? 'active' : '' %>"><a href="/home">Home</a></li>
+                    <li class=" <%= page=='Projects' ? ' active' : '' %>"><a href="/projects">Projects</a></li>
+                    <li class=" <%= page=='Services' ? 'active' : '' %>"><a href="/services">Services</a></li>
+                    <li class=" <%= page=='About Me' ? ' active' : '' %>"><a href="/about-me">About Me</a></li>
+                    <li class=" <%= page=='Contact Me' ? 'active' : '' %>"><a href="/contact-me">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
