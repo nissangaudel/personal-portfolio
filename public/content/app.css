@@ -110,10 +110,11 @@ a:hover {
     flex-direction: row;
     align-items: space-between;
     gap: 5em;
+    margin-bottom: 10em;
 }
 
 .section {
-    margin-top: 10em;
+    margin-top: 4em;
 }
 
 .my_background {
@@ -137,6 +138,7 @@ a:hover {
 .button {
     display: inline;
     position: relative;
+    width: 20%;
 }
 
 .button a {
@@ -157,6 +159,7 @@ a:hover {
 }
 
 .my_toolkit_deatils img {
+    margin-top: 20px;
     padding: 1em;
     transition: 0.15s;
     color: red;
@@ -185,5 +188,44 @@ a:hover {
 }
 
 .project_list_card {
-    display: inline;
+    margin-top: 15px;
+}
+
+.project_heading {
+    margin-bottom: 10px;
+}
+
+
+/* contact us page */
+.contact_form_area {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact_form_area input[type=text],
+input[type=email] {
+    border: none;
+    background-color: #fdfdfd;
+    border-bottom: 1px solid gainsboro;
+    padding: 2% 3%;
+    margin: 2% 0%;
+    outline: none;
+    color: #515151;
+    font-size: 18px;
+    font-family: 'Albert Sans', sans-serif;
+    width: 80%;
+}
+
+textarea {
+
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    background-color: #fdfdfd;
+    padding: 2% 3%;
+    margin: 2% 0%;
+    outline: none;
+    color: #515151;
+    font-size: 18px;
+    font-family: 'Albert Sans', sans-serif;
+    resize: none;
 }

@@ -41,7 +41,7 @@
             CV</a><img src="/assets/images/svg/right-arrow.svg" class="btn_arrow" alt=""></div>
       </div>
     </div>
-    <div class="my_toolkit section container">
+    <div class="my_toolkit section">
       <h2 class="section_heading">My Toolkit</h2>
       <div class="my_toolkit_deatils">
         <img src="/assets/images/svg/bxl-css3.svg" alt="">
@@ -56,12 +56,17 @@
     </div>
 
     <div class="projects section">
-      <h2 class="section_heading">Projects</h2>
+      <h2 class="section_heading">My Projects</h2>
 
-      <div class="project_list_card button">
-        <h3>Project One <span><img src="/assets/images/svg/right-arrow.svg" class="btn_arrow" alt=""></span></h3>
-        <p class="project_details">A web app to help you foster meaningful relationships within your community
-          through events. Get people registered for your events without any hassle.</p>
+      <div class="project_list_card">
+        <div class="project_deatails button">
+          <h3 class="project_heading">Bug Samsher<span><img src="/assets/images/svg/right-arrow.svg" class="btn_arrow"
+                alt=""></span>
+          </h3>
+          <p>Bug Smasher is a HTML canvas game, Where players are challanged to smash the BUG by clicking on
+            it as it randomly hops to random location on the screen. The speed of the bug increases as you
+            score more so the game gets harder as you progresss.</p>
+        </div>
         <div class="info_pill">
           <p>JavaScript</p>
         </div>
@@ -71,10 +76,47 @@
         <div class="info_pill">
           <p>CSS</p>
         </div>
+      </div>
+
+      <div class="project_list_card">
+        <div class="project_deatails button">
+          <h3 class="project_heading">Personal Portfolio<span><img src="/assets/images/svg/right-arrow.svg"
+                class="btn_arrow" alt=""></span>
+          </h3>
+          <p>My Personal Portfoilo Websites contains all of the professional details. It is Completely
+            hand-made by me.</p>
+        </div>
         <div class="info_pill">
-          <p>MONGODB</p>
+          <p>NodeJS</p>
+        </div>
+        <div class="info_pill">
+          <p>Express</p>
+        </div>
+        <div class="info_pill">
+          <p>Heroku</p>
+        </div>
+        <div class="info_pill">
+          <p>HTML</p>
+        </div>
+        <div class="info_pill">
+          <p>CSS</p>
         </div>
       </div>
-    </div>
 
-    <%- include partials/footer.ejs %>
+      <div class="project_list_card">
+        <div class="project_deatails button">
+          <h3 class="project_heading">Real State Website<span><img src="/assets/images/svg/right-arrow.svg"
+                class="btn_arrow" alt=""></span>
+          </h3>
+          <p>This is a static website I built for my 1 semster project. It's for a imaginary real estate
+            company.</p>
+        </div>
+        <div class="info_pill">
+          <p>HTML</p>
+        </div>
+        <div class="info_pill">
+          <p>CSS</p>
+        </div>
+      </div>
+
+      <%- include partials/footer.ejs %>
