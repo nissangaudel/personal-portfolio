@@ -16,14 +16,15 @@ sendButton.addEventListener('click', (e) => {
     let xhr = new XMLHttpRequest();
     xhr.open('POST', '/contact-me', true);
     xhr.setRequestHeader('Content-type', 'application/json');
-    xhr.onreadystatechange = () => {
-        alert('Something Went Wrong');
-        if (xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+    xhr.onload = () => {
+        if (xhr.responseText == 'Success') {
 
             alert('Email Sent Sucessfully');
             console.log(xhr.responseText)
 
-            message = '';
+            name.value = '';
+            email.value = '';
+            message.value = '';
         } else {
             alert('Something Went Wrong');
         }

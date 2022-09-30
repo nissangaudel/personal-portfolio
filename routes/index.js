@@ -29,7 +29,7 @@ router.get('/contact-me', function (req, res, next) {
 
 router.post('/contact-me', function (req, res) {
   console.log(req.body);
-  res.status(200);
+  res.send('Success');
 });
 
 
