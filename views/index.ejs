@@ -1,27 +1,24 @@
 <%- include partials/header.ejs %>
 
   <%- include partials/main_nav.ejs %>
-
-
-
     <div class="container">
       <div class="intro_section">
         <div class="namaskar">
           <h1>नमस्कार! 🙏🏼</h1>
         </div>
         <div class="main_section">
-          <h2>I’m Nishan Gaudel, a software developer from Nepal. I am currently based in Toronto, Canada.I build
+          <h2>I’m Nishan Gaudel, a software developer currently based in Toronto, Canada🍁. I build
             beautiful apps for the web!</h2>
         </div>
         <div class="Email_CTA">
-          <p>Connect With Me 👉 <span><a href="#">nissangaudel99@gmail.com</a></span></p>
+          <p>Connect With Me 👉 <span><a href="mailto:nissangaudel99@gmail.com">nissangaudel99@gmail.com</a></span></p>
         </div>
       </div>
 
       <div class="hero_image">
         <img src="/assets/images/Image_1.png" alt="Nishan' s image" class="headshot">
-        <img src="/assets/images/arrow.svg" alt="" class="arrow">
-        <!--<p>Hello folks! This is<br>me trying to pose for <br>a good portfolio <br>website photo</p>-->
+        <img src="/assets/images/svg/arrow.svg" alt="" class="arrow">
+        <p>Hello folks! Yeah, This is me trying to pose for a good portfolio website photo.</p>
       </div>
     </div>
 
@@ -37,8 +34,8 @@
         <p>Besides, Coding I enjoy watching cricket, playing video games and I love mechanical keyboards!⌨️</p>
 
         <div class="button"><a
-            href="https://drive.google.com/file/d/1XWUqpkt3KKL4e3l-AW7Ej7beDUAiUiEy/view?usp=sharing">Download
-            CV</a><img src="/assets/images/svg/right-arrow.svg" class="btn_arrow" alt=""></div>
+            href="https://drive.google.com/file/d/1XWUqpkt3KKL4e3l-AW7Ej7beDUAiUiEy/view?usp=sharing"><strong>Download
+              CV</strong></a><img src="/assets/images/svg/right-arrow.svg" class="btn_arrow" alt=""></div>
       </div>
     </div>
     <div class="my_toolkit section">
@@ -60,8 +57,59 @@
 
       <div class="project_list_card">
         <div class="project_deatails button">
-          <h3 class="project_heading">Bug Samsher<span><img src="/assets/images/svg/right-arrow.svg" class="btn_arrow"
-                alt=""></span>
+          <h3 class="project_heading">Employee Management System <a
+              href=" https://github.com/nissangaudel/emloyee_management_system"><span><img
+                  src="/assets/images/svg/right-arrow.svg" class="btn_arrow" alt=""></span></a>
+          </h3>
+          <p>A complete web solution to manage staff and record the attandace of the employee,
+            register and store their details.</p>
+        </div>
+        <div class="info_pill">
+          <p>NodeJS</p>
+        </div>
+        <div class="info_pill">
+          <p>Express</p>
+        </div>
+        <div class="info_pill">
+          <p>JavaScript</p>
+        </div>
+        <div class="info_pill">
+          <p>HTML</p>
+        </div>
+        <div class="info_pill">
+          <p>CSS</p>
+        </div>
+      </div>
+
+      <div class="project_list_card">
+        <div class="project_deatails button">
+          <h3 class="project_heading">Easy Surveys <a href="https://surveysite.onrender.com/"><span><img
+                  src="/assets/images/svg/right-arrow.svg" class="btn_arrow" alt=""></span></a>
+          </h3>
+          <p>Easy Surveys is a web application that allows users to create accounts, post, and track
+            survey questions.</p>
+        </div>
+        <div class="info_pill">
+          <p>HTML</p>
+        </div>
+        <div class="info_pill">
+          <p>CSS</p>
+        </div>
+        <div class="info_pill">
+          <p>JavaScript</p>
+        </div>
+        <div class="info_pill">
+          <p>Express</p>
+        </div>
+        <div class="info_pill">
+          <p>BootStrap</p>
+        </div>
+      </div>
+
+      <div class="project_list_card">
+        <div class="project_deatails button">
+          <h3 class="project_heading">Bug Samsher <a href="https://github.com/nissangaudel/bug-smasher"><span><img
+                  src="/assets/images/svg/right-arrow.svg" class="btn_arrow" alt=""></span></a>
           </h3>
           <p>Bug Smasher is a HTML canvas game, Where players are challanged to smash the BUG by clicking on
             it as it randomly hops to random location on the screen. The speed of the bug increases as you
@@ -78,45 +126,7 @@
         </div>
       </div>
 
-      <div class="project_list_card">
-        <div class="project_deatails button">
-          <h3 class="project_heading">Personal Portfolio<span><img src="/assets/images/svg/right-arrow.svg"
-                class="btn_arrow" alt=""></span>
-          </h3>
-          <p>My Personal Portfoilo Websites contains all of the professional details. It is Completely
-            hand-made by me.</p>
-        </div>
-        <div class="info_pill">
-          <p>NodeJS</p>
-        </div>
-        <div class="info_pill">
-          <p>Express</p>
-        </div>
-        <div class="info_pill">
-          <p>Heroku</p>
-        </div>
-        <div class="info_pill">
-          <p>HTML</p>
-        </div>
-        <div class="info_pill">
-          <p>CSS</p>
-        </div>
-      </div>
+      <%- include partials/bottom_nav.ejs %>
 
-      <div class="project_list_card">
-        <div class="project_deatails button">
-          <h3 class="project_heading">Real State Website<span><img src="/assets/images/svg/right-arrow.svg"
-                class="btn_arrow" alt=""></span>
-          </h3>
-          <p>This is a static website I built for my 1 semster project. It's for a imaginary real estate
-            company.</p>
-        </div>
-        <div class="info_pill">
-          <p>HTML</p>
-        </div>
-        <div class="info_pill">
-          <p>CSS</p>
-        </div>
-      </div>
 
-      <%- include partials/footer.ejs %>
+        <%- include partials/footer.ejs %>
